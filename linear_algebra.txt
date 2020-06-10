@@ -36,3 +36,29 @@ Transpose: For A belongs to R(m x n) the matrix B belongs to R(n x m) with bij =
 
 Symmetric Matrix: A matrix A belongs to R(n x n) is symmetric if A = A^t.
 The sum of two symmetric matrices is always symmetric.
+
+Multiplication by a Scalar:
+If we have a scalar lambda belongs to R and a matrix A belongs to R(m x n). Then lambdaA = K, kij = lambdaaij.
+Practically lambda scales each element of A.
+
+Compact Representations of Systems of Linear Equations:
+Generally, a system of linear equations can be compactly represented in the matrix form as Ax = b.
+
+Elementary Transformations:
+Key to solving a system of linear equations are elementary transformations that keep the solution set the same, but transform the equation system into a simpler form:
+Exchange of two equations (rows in the matrix representing the system of equations).
+Multiplication of an equation (row) with a constant.
+Addition of two equations (rows).
+
+Row-Echelon Form:
+A matrix is in row-echelon form if:
+All rows that contain only zeros are at the bottom of the matrix; correspondingly, all rows that contain at least one nonzero element are on top of rows that contain only zeros.
+Looking at nonzero rows only, the first nonzero number from the left (also called the pivot or the leading coefficient) is always strictly to right of the pivot or the row above it.
+
+Basic and Free Variables:
+The variables correspoding to the pivots in the row-echelon form are called basic variables and the other variables are free variables.
+
+Gaussian elimination:
+Gaussian elimination is an algorithm that performs elementary transformations to bring a system of linear equations into reduced row-echelon form.
+
+Vector Spaces:
