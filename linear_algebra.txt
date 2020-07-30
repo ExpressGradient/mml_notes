@@ -62,3 +62,27 @@ Gaussian elimination:
 Gaussian elimination is an algorithm that performs elementary transformations to bring a system of linear equations into reduced row-echelon form.
 
 Vector Spaces:
+A Vector Space is a structured space in which vectors live.
+
+Groups:
+A group is a set of elements and an operation defined on these elements that keeps some structure of the set intact.
+Groups hold closure, associativity, neutral element and inverse element properties.
+
+Abelian Group:
+If x, y belongs to a set g, then, x (operation) y = y (operation) x, then G = (g, operation) is an Abelian group (commutative).
+
+More about vector space:
+A real valued vector space V = (v, vector operation, scalar operation)
+(v, +) is an Abelian group.
+The elements x belongs V are called vectors.
+There is no such thing as vector multiplication, it is not defined.
+Closure property guarantees that we end up with another vector in the same vector space when vector addition or scalar multiplication is done.
+
+Vector Subspace: just the subset of vector space set.
+
+Basis: It is possible to find a set of vectors with which we can represent every vector in the vector space by adding them together and scaling them. This set of vectors is called a basis.
+Linear Combination: Consider a vector space V and a finite number of vectors x1, x2 ...xk belongs to V. Then every vector which belongs to V is of the form lambda1 x1 + lambda2 x2 ... lambdak xk, with lambda1, lambda2 is a linear combination of the vectors x1, x2 ...xk
+
+Linear Dependence: If there is a non-trivial combination, such that 0 = lambda1 x1 + lambda2 x2 ... lambdak xk with atleast one lambda i != 0, the vectors are linearly dependent. They form basis for the vector space.
+Linear Independence: If a trivial solution exists, such that lambda 1 = lambda 2 ... = 0. then the vectors are linearly independent. The vector space does not have a basis.
+
